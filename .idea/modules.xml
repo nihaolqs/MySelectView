@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MySelectView.iml" filepath="$PROJECT_DIR$/MySelectView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MySelectView.iml" filepath="$PROJECT_DIR$/MySelectView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myselectviewlibrary/myselectviewlibrary.iml" filepath="$PROJECT_DIR$/myselectviewlibrary/myselectviewlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/myselectviewlibrary/myselectviewlibrary.iml" filepath="$PROJECT_DIR$/myselectviewlibrary/myselectviewlibrary.iml" />
     </modules>
   </component>

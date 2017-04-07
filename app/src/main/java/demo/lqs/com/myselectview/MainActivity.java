@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         viewPage.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
             @Override
             public Fragment getItem(int position) {
-                return new Fragment();
+                return new BlankFragment();
             }
 
             @Override
