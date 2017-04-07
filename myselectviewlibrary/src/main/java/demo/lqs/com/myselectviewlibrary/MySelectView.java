@@ -122,7 +122,7 @@ public class MySelectView extends View implements ViewPager.OnPageChangeListener
         mSelectCriclePaint.setColor(mSelectTitleColor);
         canvas.drawCircle(0, 0, height / 2, mSelectCriclePaint);
         mSelectCriclePaint.setColor(mSelectCricleColor);
-        int save = canvas.save();
+//        int save = canvas.saveLayer(); todo
         canvas.drawCircle(0, 0, height / 2, mSelectCriclePaint);
         mSelectCriclePaint.setXfermode(mXfermode);
         int position = mViewPage.getCurrentItem();
@@ -135,7 +135,7 @@ public class MySelectView extends View implements ViewPager.OnPageChangeListener
             canvas.translate(height, 0);
         }
         mSelectCriclePaint.setXfermode(null);
-        canvas.restoreToCount(save);
+//        canvas.restoreToCount(save);
 //        canvas.drawCircle(0, 0, height / 2, mSelectCriclePaint);
     }
 
